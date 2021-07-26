@@ -1,0 +1,41 @@
+/**** theme.css ***/
+configuration {
+  fullscreen: true;
+}
+
+* {
+  text-color: rgba(255,255,255,0.75);
+  font: "Inconsolata 16";
+  background-color: transparent;
+}
+
+window {
+  padding: 35%;
+  children: [ horibox ];
+}
+
+horibox {
+  location: center;
+  width: 30em;
+  height: 30em;
+  children: [ prompt, entry, listview ];
+}
+
+listview {
+  spacing: 0.3em;
+  lines: 10;
+}
+
+entry {
+  expand: false;
+  width: 10em;
+}
+
+element {
+  padding: 0.25em;
+}
+
+element selected {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 2px;
+}
