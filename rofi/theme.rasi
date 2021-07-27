@@ -10,6 +10,7 @@ configuration {
 }
 
 window {
+  background-color:rgba(0,0,0,0.75);
   padding: 35%;
   children: [ horibox ];
 }
@@ -32,10 +33,10 @@ entry {
 }
 
 element {
-  padding: 0.25em;
+  padding: 0.75em 0.5em 0.5em 0.5em;
 }
 
 element selected {
   background-color: rgba(255,255,255,0.2);
-  border-radius: 2px;
+  border-radius: 4px;
 }
