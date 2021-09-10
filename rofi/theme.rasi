@@ -1,42 +1,41 @@
-/**** theme.css ***/
 configuration {
-  fullscreen: true;
+
+    // The display name of this browser
+    display-ssh:                   "  ";
+    // The display name of this browser
+    display-run:                    "";
+    // The display name of this browser
+    display-drun:                   "";
+    // The display name of this browser
+    display-window:                 "";
+    display-combi:                  "";
+    show-icons: true;
 }
 
 * {
-  text-color: rgba(255,255,255,0.75);
-  font: "Inconsolata 16";
-  background-color: transparent;
+  color: #bbaa99; 
+  font: "Source Code Pro 16";
+  // override default white background with transparency
+  background-color: rgba(0,0,0,0);
 }
 
-window {
-  background-color:rgba(0,0,0,0.75);
-  padding: 35%;
-  children: [ horibox ];
+#element-icon {
+  size: 2ch;
+  padding: 0 0.25em;
 }
 
-horibox {
-  location: center;
-  width: 30em;
-  height: 30em;
-  children: [ prompt, entry, listview ];
+#prompt {
+  margin: 0.5em 0;
 }
 
-listview {
-  spacing: 0.3em;
-  lines: 10;
+#entry {
+  margin: 0.5em 0 0 0.53em;
 }
 
-entry {
-  expand: false;
-  width: 10em;
+#window {
+  background-color: rgba(0,0,0,0.5);
 }
 
-element {
-  padding: 0.75em 0.5em 0.5em 0.5em;
-}
-
-element selected {
-  background-color: rgba(255,255,255,0.2);
-  border-radius: 4px;
+#mainbox {
+  margin: 2em;
 }
