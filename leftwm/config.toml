@@ -19,7 +19,7 @@ key = "Return"
 
 [[keybind]]
 command = "CloseWindow"
-modifier = ["modkey", "Shift"]
+modifier = ["modkey"]
 key = "q"
 
 [[keybind]]
