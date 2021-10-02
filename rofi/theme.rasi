@@ -46,6 +46,6 @@ configuration {
 
 #element selected.normal {
   border-color: #bbaa99; 
-  border: 2px 0px 0px 0px;
+  border: 0px 0px 2px 0px;
   margin-bottom: 4px;
 }
