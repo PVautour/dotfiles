@@ -33,9 +33,19 @@ configuration {
 }
 
 #window {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
 }
 
 #mainbox {
   margin: 2em;
+}
+
+#element {
+  margin: 0.1em 0 0 0; 
+}
+
+#element selected.normal {
+  border-color: #bbaa99; 
+  border: 2px 0px 0px 0px;
+  margin-bottom: 4px;
 }
