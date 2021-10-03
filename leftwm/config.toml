@@ -211,13 +211,13 @@ key = "9"
 command = "IncreaseMainWidth"
 value = "3"
 modifier = ["modkey"]
-key = "t"
+key = "y"
 
 [[keybind]]
 command = "DecreaseMainWidth"
 value = "3"
 modifier = ["modkey"]
-key = "y"
+key = "t"
 
 [[keybind]]
 command = "Execute"
