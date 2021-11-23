@@ -271,26 +271,14 @@ key = "XF86XK_AudioStop"
 
 [[keybind]]
 command = "Execute"
-value = "asusctl -k off"
+value = "asusctl -p"
 modifier = [""]
 key = "XF86XK_KbdBrightnessDown"
 
 [[keybind]]
 command = "Execute"
-value = "asusctl -k low"
-modifier = ["modkey"]
-key = "XF86XK_KbdBrightnessDown"
-
-[[keybind]]
-command = "Execute"
-value = "asusctl -k med"
-modifier = ["modkey"]
-key = "XF86XK_KbdBrightnessUp"
-
-[[keybind]]
-command = "Execute"
-value = "asusctl -k high"
-modifier = []
+value = "asusctl -n"
+modifier = [""]
 key = "XF86XK_KbdBrightnessUp"
 
 [[keybind]]
