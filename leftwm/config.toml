@@ -245,12 +245,6 @@ key = "XF86XK_AudioPlay"
 
 [[keybind]]
 command = "Execute"
-value = "playerctl play-pause"
-modifier = []
-key = "XF86XK_AudioPlay"
-
-[[keybind]]
-command = "Execute"
 value = "playerctl previous"
 modifier = []
 key = "XF86XK_AudioPrev"
@@ -272,13 +266,13 @@ key = "XF86XK_AudioStop"
 [[keybind]]
 command = "Execute"
 value = "asusctl -p"
-modifier = [""]
+modifier = []
 key = "XF86XK_KbdBrightnessDown"
 
 [[keybind]]
 command = "Execute"
 value = "asusctl -n"
-modifier = [""]
+modifier = []
 key = "XF86XK_KbdBrightnessUp"
 
 [[keybind]]
@@ -299,6 +293,11 @@ value = "shotgun ~/Pictures/screenshot-\"`date +\"%F-%T:%N\"`\".png"
 modifier = ["modkey"]
 key = "s"
 
+[[keybind]]
+command = "Execute"
+value = "xrandr --output DP-1-0 --auto --above eDP-1 && leftwm-command SoftReload"
+modifier = ["modkey"]
+key = "m"
 
 
 
