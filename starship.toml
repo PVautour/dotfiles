@@ -1,0 +1,8 @@
+
+command_timeout = 1000
+[aws]
+disabled = true
+
+[time]
+disabled = true
+time_format = '%D %T'
