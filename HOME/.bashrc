@@ -10,6 +10,9 @@ export XDG_STATE_HOME="$HOME/.local/state"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Set terminal colors based on pywal colors
+cat ~/.cache/wal/sequences &
+
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 

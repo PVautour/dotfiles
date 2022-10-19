@@ -1,1 +1,3 @@
-theme = "snazzy"
+theme = "base16_transparent"
+[editor]
+rulers = [80, 120]
