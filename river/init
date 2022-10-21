@@ -1,5 +1,27 @@
 #!/bin/sh
 
+# source the colors.
+. "${HOME}/.cache/wal/colors.sh"
+
+# fix color format
+color0=`echo "$color0" | sed 's/#/0x/'`
+color1=`echo "$color1" | sed 's/#/0x/'`
+color2=`echo "$color2" | sed 's/#/0x/'`
+color3=`echo "$color3" | sed 's/#/0x/'`
+color4=`echo "$color4" | sed 's/#/0x/'`
+color5=`echo "$color5" | sed 's/#/0x/'`
+color6=`echo "$color6" | sed 's/#/0x/'`
+color7=`echo "$color7" | sed 's/#/0x/'`
+color8=`echo "$color8" | sed 's/#/0x/'`
+color9=`echo "$color9" | sed 's/#/0x/'`
+color10=`echo "$color10" | sed 's/#/0x/'`
+color11=`echo "$color11" | sed 's/#/0x/'`
+color12=`echo "$color12" | sed 's/#/0x/'`
+color13=`echo "$color13" | sed 's/#/0x/'`
+color14=`echo "$color14" | sed 's/#/0x/'`
+color15=`echo "$color15" | sed 's/#/0x/'`
+color16=`echo "$color16" | sed 's/#/0x/'`
+
 # Custom config start
 
 # riverctl map normal Super P spawn "fuzzel"
@@ -151,9 +173,11 @@ do
 done
 
 # Set background and border color
-riverctl background-color 0xFFFFFF
-riverctl border-color-focused 0xFFB53A
-riverctl border-color-unfocused 0x222222
+
+riverctl background-color $color0
+riverctl border-color-focused $color7
+riverctl border-color-unfocused $color3
+
 # Set keyboard repeat rate
 riverctl set-repeat 50 300
 
@@ -167,4 +191,4 @@ riverctl csd-filter-add app-id "gedit"
 # Set and exec into the default layout generator, rivertile.
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
-exec rivertile -view-padding 6 -outer-padding 6 -main-location right
+exec rivertile -view-padding 0 -outer-padding 0 -main-location right

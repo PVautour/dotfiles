@@ -27,3 +27,4 @@ alias cloud="export TERM=vt100 && ssh -v ec2-user@ec2-3-96-188-49.ca-central-1.c
 alias set-aws="wl-paste | sed 's/\[006288227511_PowerUser\]/\[default\]/g' >> ~/.aws/credentials && echo 'Aws credentials set successfully.'"
 alias copy="wl-copy"
 alias paste="wl=paste"
+alias gc="git checkout"
