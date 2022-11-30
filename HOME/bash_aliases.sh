@@ -35,3 +35,5 @@ alias nc9="ssh -i ~/.ssh/id_ed25519 ubuntu@ec2-35-183-54-150.ca-central-1.comput
 alias p="python"
 alias aws-pll="~/.config/HOME/Scripts/aws-print-lambda-logs.sh"
 alias aws-tl="~/.config/HOME/Scripts/aws-invoke-lambda.sh"
+alias aws-zd="~/.config/HOME/Scripts/aws-zip-and-deploy.sh"
+
