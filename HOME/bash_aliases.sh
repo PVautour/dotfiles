@@ -36,4 +36,4 @@ alias p="python"
 alias aws-ll="~/.config/HOME/Scripts/aws-print-lambda-logs.sh"
 alias aws-rl="~/.config/HOME/Scripts/aws-invoke-lambda.sh"
 alias aws-dl="~/.config/HOME/Scripts/aws-zip-and-deploy.sh"
-
+alias power-draw="awk '{print \$1*10^-6 \" W\"}' /sys/class/power_supply/BAT0/power_now"
