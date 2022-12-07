@@ -1,3 +1,9 @@
 theme = "base16_transparent"
+
 [editor]
 rulers = [80, 120]
+bufferline = 'multiple'
+auto-pairs = false
+
+[keys.normal]
+space = { c = ':buffer-close'}
