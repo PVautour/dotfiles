@@ -26,7 +26,7 @@ color16=`echo "$color16" | sed 's/#/0x/'`
 riverctl map normal Super P spawn "fuzzel"
 riverctl focus-follows-cursor normal
 riverctl set-cursor-warp on-output-change
-riverctl input 1267:12703:ASUE1209:00_04F3:319F_Touchpad tap enabled
+riverctl input pointer-1267-12703-ASUE1209:00_04F3:319F_Touchpad tap enabled
 swaybg -i ~/.config/river/background &
 swaybg -c '#000000' &
 
