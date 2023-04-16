@@ -4,6 +4,7 @@ theme = "base16_transparent"
 rulers = [80, 120]
 bufferline = 'multiple'
 auto-pairs = false
+soft-wrap = { enable = true }
 
 [keys.normal]
-space = { c = ':buffer-close'}
+space = { c = ':buffer-close', l = ':toggle soft-wrap.enable' }
