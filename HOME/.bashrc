@@ -93,5 +93,3 @@ osc7_cwd() {
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }osc7_cwd
 # end 
 
-# set openai key
-export OPENAI_KEY=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
