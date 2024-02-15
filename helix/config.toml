@@ -6,5 +6,9 @@ bufferline = 'multiple'
 auto-pairs = false
 soft-wrap = { enable = true }
 
+[editor.file-picker]
+hidden = false
+
 [keys.normal]
-space = { c = ':buffer-close', l = ':toggle soft-wrap.enable' }
+space = { c = ':buffer-close', C = ':buffer-close!', l = ':toggle soft-wrap.enable', f = "file_picker_in_current_directory", F = "file_picker" }
+

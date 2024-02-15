@@ -6,6 +6,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
+export PATH=$PATH:/home/pvautour/go/bin
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -91,3 +92,6 @@ osc7_cwd() {
 }
 PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }osc7_cwd
 # end 
+
+# set openai key
+export OPENAI_KEY=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
